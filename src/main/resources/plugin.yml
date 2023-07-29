@@ -1,0 +1,16 @@
+name: ClearWarpPlugin
+version: '${project.version}'
+main: net.ssgssp.clearwarpplugin.ClearWarpPlugin
+authors: [mrsongbyssgs AMD ALL in YanshanDump#51667]
+
+commands:
+  warpclear:
+    description: 清除玩家扭曲
+    usage: /<command>
+    permission: ssgssp.warpclear
+    permission-message: 您没有使用该命令的权限
+
+permissions:
+  ssgssp.warpclear:
+    description: 清除玩家扭曲权限(越权)
+    default: true
